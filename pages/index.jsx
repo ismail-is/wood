@@ -118,13 +118,13 @@ const Index = () => {
             </div>
             <div className="col-xl-6">
               {/*====== About Content Box  ======*/}
-              <div className="about-content-box pl-lg-60 mb-50 wow fadeInRight">
+              <div className="about-content-box pl-lg-60 mb-0 wow fadeInRight">
                 <div className="section-title mb-30">
                   <span className="sub-title">
                     {/* <i className="flaticon-plant" /> */}
                   About Us
                   </span>
-                  <h2>We Care Your Garden & Landscaping</h2>
+                  <h2>Furniture Repair & Restoration Service</h2>
                 </div>
                 <p className="mb-30">
                  Our story is all about creating sustainable Future, in a world of fast furniture, we have a different approach: REPAR & RESTORATION. WoodPrism is committed to sustainability and the belief that well-made furniture deserves a second life. We expertly repair structural damage, restore finishes, and revitalize upholstery, significantly extending the lifespan of your furniture. By choosing repair over replacement, you're not only saving money and preserving sentimental value -you're actively reducing waste and conserving resources. We're your partners in sustainable living, maximizing the beauty and function of your furniture for years to come.

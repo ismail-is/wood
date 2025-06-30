@@ -30,6 +30,8 @@ const ServiceDetails = () => {
                     alt="Service Image"
                   />
                 </div>
+
+                
                 <h3>How to Benefit</h3>
                 <p>
                   Unde omnis iste natus error voluptatem accusantium doloremque

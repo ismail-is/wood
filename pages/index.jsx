@@ -84,7 +84,7 @@ const Index = () => {
 
 
  {/*====== Start About Section  ======*/}
-      <section className="about-section pt-100 pb-50">
+      <section className="about-section pt-100 pb-50 ">
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-xl-6">
@@ -124,7 +124,7 @@ const Index = () => {
                     {/* <i className="flaticon-plant" /> */}
                   About Us
                   </span>
-                  <h2>We Care Your Garden &amp; Landscaping</h2>
+                  <h2>We Care Your Garden & Landscaping</h2>
                 </div>
                 <p className="mb-30">
                  Our story is all about creating sustainable Future, in a world of fast furniture, we have a different approach: REPAR & RESTORATION. WoodPrism is committed to sustainability and the belief that well-made furniture deserves a second life. We expertly repair structural damage, restore finishes, and revitalize upholstery, significantly extending the lifespan of your furniture. By choosing repair over replacement, you're not only saving money and preserving sentimental value -you're actively reducing waste and conserving resources. We're your partners in sustainable living, maximizing the beauty and function of your furniture for years to come.
@@ -339,97 +339,23 @@ const Index = () => {
         </section> */}
       {/*====== End Features Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-section" >
+      {/* <section className="about-section" >
         <div className="container-fluid">
-          {/*=== About Wrapper ===*/}
           <div className="about-wrapper gray-bg wow fadeInUp">
             <div className="container">
               <div className="row align-items-xl-center justify-content-center">
-                <div className="col-xl-10 col-lg-12">
-                  {/*=== About Image Box ===*/}
-                  <div className="about-two_image-box wow fadeInLeft">
-                    <img src="assets/images/allimg/home/Why Choose .webp" alt />
-                  </div>
-                </div>
-                {/* <div className="col-xl-7 col-lg-12">
-                  <div className="about-three_content-box pl-lg-70 wow fadeInRight">
-                    <div className="section-title mb-25 wow fadeInUp">
-                      <span className="sub-title">
-                        <i className="flaticon-plant" />
-                        About Gardening
-                      </span>
-                      <h2>Perfect Gardening The Result Of Nature</h2>
-                    </div>
-                    <p className="mb-40 wow fadeInDown">
-                      Sed ut perspiciatis unde omnis iste natus voluptatem
-                      accusantiue doloremque laudantium totam rem aperiam, eaque
-                      ipsa quae abilloy inventore
-                    </p>
-                    <div className="row">
-                      <div className="col-sm-6">
-                        <div className="fancy-about-item mb-40 wow fadeInUp">
-                          <div className="text">
-                            <h5>
-                              <i className="far fa-angle-double-right" />
-                              Gardens
-                            </h5>
-                            <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-6">
-                        <div className="fancy-about-item mb-40 wow fadeInDown">
-                          <div className="text">
-                            <h5>
-                              <i className="far fa-angle-double-right" />
-                              Urbans
-                            </h5>
-                            <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-6">
-                        <div className="fancy-about-item mb-40 wow fadeInUp">
-                          <div className="text">
-                            <h5>
-                              <i className="far fa-angle-double-right" />
-                              Maintenance
-                            </h5>
-                            <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-6">
-                        <div className="fancy-about-item mb-40 wow fadeInUp">
-                          <div className="text">
-                            <h5>
-                              <i className="far fa-angle-double-right" />
-                              Event &amp; Programs
-                            </h5>
-                            <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-              </div>
+  <div className="col-xl-12 col-lg-12">
+    <div className="about-two_image-box wow fadeInLeft d-flex justify-content-center">
+      <img src="assets/images/allimg/home/Why Choose .webp" alt="Why Choose" style={{width:"100%"}}/>
+    </div>
+  </div>
+</div>
+
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <img src="assets/images/allimg/home/Why Choose .webp" alt="Why Choose" style={{padding:'50px'}}/>
       {/*====== End About Section ======*/}
        <section
         className="choose-bg-section bg_cover p-r z-1 pt-100 pb-100"
@@ -567,8 +493,7 @@ const Index = () => {
       </section>
 
 
-     <section className="about-bg-section">
-        {/*====== About BG ======*/}
+     {/* <section className="about-bg-section">
         <div
           className="about-bg bg_cover wow fadeInLeft"
           style={{ backgroundImage: "url(assets/images/allimg/home/team.webp)" }}
@@ -576,7 +501,6 @@ const Index = () => {
         <div className="container">
           <div className="row align-items-center justify-content-end">
             <div className="col-lg-6">
-              {/*====== About Content Box ======*/}
               <div className="about-two_content-box pb-80 wow fadeInRight">
                 <div className="section-title">
                   <div className="section-title mb-10">
@@ -588,40 +512,50 @@ const Index = () => {
                   <p className="mb-45 " >
                     Our team combines technical mastery with a mission, to fight waste by extending the life of furniture. With backgrounds in sustainable design, we approach every project with innovation and environmental care. We're communicators, problem-solvers, and perfectionists-here to give you peace of mind and stunning results.
                   </p>
-                  {/* <div className="about-inner-content d-flex justify-content-between">
-                    <div className="inner-content">
-                      <ul className="check-style-one mb-45">
-                        <li>
-                          <i className="far fa-check" />
-                          We’re Experience Gardening
-                        </li>
-                        <li>
-                          <i className="far fa-check" />
-                          Awards Winning &amp; Expert Team Member
-                        </li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="main-btn primary-btn">Learn More Us</a>
-                      </Link>
-                    </div>
-                    <div className="experience-box-two">
-                      <h2 className="number">
-                        <Counter end={25} />+
-                      </h2>
-                      <h6>Years Of Experience</h6>
-                      <Link legacyBehavior href="/about">
-                        <a className="icon-btn">
-                          <i className="far fa-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div> */}
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+  <section className="service-details-section pt-100">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12">
+              {/*====== Service Details Wrapper ======*/}
+              <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
+                <div className="section-title mb-10 " style={{textAlign:'center'}}>
+                  <h2 style={{textAlign:'center'}}>Our Team</h2>
+                    <span className="sub-title"  style={{textAlign:'center'}}>
+                    Eco-Friendly Solutions, Cost-Effective Results..
+                    </span>
+                    
+                  </div>
+                <p>
+                 Our team combines technical mastery with a mission, to fight waste by extending the life of furniture. With backgrounds in sustainable design, we approach every project with innovation and environmental care. We're communicators, problem-solvers, and perfectionists-here to give you peace of mind and stunning results.
+                </p>
+                <div className="block-image wow fadeInDown">
+                  <img
+                    src="assets/images/allimg/home/team.webp"
+                    alt="Service Image"
+                  />
+                </div>
+                </div>
+
+                </div>
+
+                </div>
+
+                </div>
+                </section>
+
+
+
+
+
+
 
 
        <section className="service-bgc-section p-r z-1 main-bg pt-150 pb-70">
@@ -1400,9 +1334,9 @@ const Index = () => {
       src="assets/images/allimg/home/Map.webp"
       alt="Features Image"
       style={{
-        boxShadow: "0 8px 24px rgba(0, 0, 0, 0.2)",
+        // boxShadow: "0 8px 24px rgba(0, 0, 0, 0.2)",
         borderRadius: "12px", // Optional: removes sharp corners
-        padding:'20px'
+        // padding:'10px'
       }}
     />
   </div>
@@ -1436,7 +1370,7 @@ const Index = () => {
                 
               </div>
             </div>
-            <div className="col-lg-7 mb-35">
+            <div className="col-lg-7 mb-95">
               {/*======  CTA Image Box  ======*/}
               <div className="cta-image-box mb-50 wow fadeInRight">
                 <img src="assets/images/allimg/home/Image.webp" alt="Image" />
